@@ -1,0 +1,20 @@
+{
+    "name": "hdk/test",
+    "description": "this is hdk test",
+    "type": "library",
+    "require": {
+        "php": ">7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hdk\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rui",
+            "email": "1342501157@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
